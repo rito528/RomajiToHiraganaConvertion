@@ -1,0 +1,10 @@
+[debug] 	starting transaction: publish during transaction will be done in 
+[debug] 		D:\rito\desktop\Develop\RomajiToHiraganaConvertion\jar,work\default\romajitohiraganaconvertion_2.13\1.0.0.part
+[debug] 	and on commit moved to 
+[debug] 		D:\rito\desktop\Develop\RomajiToHiraganaConvertion\jar,work\default\romajitohiraganaconvertion_2.13\1.0.0
+[info] 	published romajitohiraganaconvertion_2.13 to D:\rito\desktop\Develop\RomajiToHiraganaConvertion\jar,work\default\romajitohiraganaconvertion_2.13\1.0.0.part\romajitohiraganaconvertion_2.13-1.0.0.pom
+[info] 	published romajitohiraganaconvertion_2.13 to D:\rito\desktop\Develop\RomajiToHiraganaConvertion\jar,work\default\romajitohiraganaconvertion_2.13\1.0.0.part\romajitohiraganaconvertion_2.13-1.0.0.jar
+[info] 	published romajitohiraganaconvertion_2.13 to D:\rito\desktop\Develop\RomajiToHiraganaConvertion\jar,work\default\romajitohiraganaconvertion_2.13\1.0.0.part\romajitohiraganaconvertion_2.13-1.0.0-sources.jar
+[info] 	published romajitohiraganaconvertion_2.13 to D:\rito\desktop\Develop\RomajiToHiraganaConvertion\jar,work\default\romajitohiraganaconvertion_2.13\1.0.0.part\romajitohiraganaconvertion_2.13-1.0.0-javadoc.jar
+[info] 	publish commited: moved D:\rito\desktop\Develop\RomajiToHiraganaConvertion\jar,work\default\romajitohiraganaconvertion_2.13\1.0.0.part 
+[info] 		to D:\rito\desktop\Develop\RomajiToHiraganaConvertion\jar,work\default\romajitohiraganaconvertion_2.13\1.0.0
