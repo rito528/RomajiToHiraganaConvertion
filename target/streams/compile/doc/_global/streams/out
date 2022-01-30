@@ -1,0 +1,11 @@
+[info] Main Scala API documentation to D:\rito\desktop\Develop\RomajiToHiraganaConvertion\target\scala-2.13\api...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.6.0:compile for Scala 2.13.8
+[debug] Calling Scaladoc with arguments:
+[debug] 	-d
+[debug] 	D:\rito\desktop\Develop\RomajiToHiraganaConvertion\target\scala-2.13\api
+[debug] 	-bootclasspath
+[debug] 	C:\Users\rito\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	dummy_127e2e39
+[debug] 	D:/rito/desktop/Develop/RomajiToHiraganaConvertion/src/main/scala/com/gmail/rotoyutoriapp/Romaji.scala
+[info] Main Scala API documentation successful.
