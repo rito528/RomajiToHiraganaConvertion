@@ -49,9 +49,7 @@ object Romaji {
   def romajiToHiragana(romaji: String): String = {
     var savedHiragana = ""
     var tmpHiragana = ""
-    romaji.zipWithIndex.foreach(c => {
-      //全角が含まれている場合はnullを返す
-      if (c.toString.getBytes().length >= 2) return null
+    romaji.foreach(c => {
       tmpHiragana += c
       val length = tmpHiragana.length
       if (length == 3 && !threeOn.contains(tmpHiragana)) {
@@ -75,7 +73,7 @@ object Romaji {
       } else if (length == 1 && !"[a-z]+".r.matches(tmpHiragana)) {
         //記号だった場合
         savedHiragana += tmpHiragana(0)
-        tmpHiragana = tmpHiragana.drop(1)
+        tmpHiragana = ""
       }
     })
     savedHiragana += tmpHiragana
