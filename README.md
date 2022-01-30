@@ -1,2 +1,2 @@
 # RomajiToHiraganaConvertion
-ローマ字をひらがなに変換するJava用
+ローマ字をひらがなに変換するJava用ライブラリ
