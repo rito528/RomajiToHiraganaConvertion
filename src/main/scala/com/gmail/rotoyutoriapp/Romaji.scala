@@ -49,7 +49,7 @@ object Romaji {
   def romajiToHiragana(romaji: String): String = {
     var savedHiragana = ""
     var tmpHiragana = ""
-    romaji.foreach(c => {
+    romaji.zipWithIndex.foreach(c => {
       //全角が含まれている場合はnullを返す
       if (c.toString.getBytes().length >= 2) return null
       tmpHiragana += c
@@ -78,6 +78,7 @@ object Romaji {
         tmpHiragana = tmpHiragana.drop(1)
       }
     })
+    savedHiragana += tmpHiragana
     savedHiragana
   }
 
