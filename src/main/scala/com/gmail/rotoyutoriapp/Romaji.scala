@@ -72,6 +72,10 @@ object Romaji {
       } else if (length == 1 && aiueo.contains(tmpHiragana)) {
         savedHiragana += aiueo(tmpHiragana)
         tmpHiragana = ""
+      } else if (length == 1 && !"[a-z]+".r.matches(tmpHiragana)) {
+        //記号だった場合
+        savedHiragana += tmpHiragana(0)
+        tmpHiragana = tmpHiragana.drop(1)
       }
     })
     savedHiragana
