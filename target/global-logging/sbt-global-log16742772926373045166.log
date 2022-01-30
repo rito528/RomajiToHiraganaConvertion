@@ -1,0 +1,151 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\rito\AppData\Local\Temp\idea1.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\rito\AppData\Local\Temp\idea1.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.1 (Oracle Corporation Java 16.0.2)
+[debug]       Load.loadUnit: plugins took 103.8912ms
+[debug]       Load.loadUnit: defsScala took 0.3191ms
+[debug] [Loading] Scanning directory C:\Users\rito\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\rito\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 16.4088 ms
+[debug]           Load.resolveProject(global-plugins) took 42.3409ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\rito\.sbt\1.0\plugins, plugins: List(<none>))) took 80.8855ms
+[debug] [Loading] Done in C:\Users\rito\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 102.7175ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2146ms
+[debug]     Load.loadUnit(file:/C:/Users/rito/.sbt/1.0/plugins/, ...) took 218.9822ms
+[debug]   Load.apply: load took 395.3286ms
+[debug]   Load.apply: resolveProjects took 5.898ms
+[debug]   Load.apply: finalTransforms took 71.2737ms
+[debug]   Load.apply: config.delegates took 10.9ms
+[debug]   Load.apply: Def.make(settings)... took 609.1563ms
+[debug]   Load.apply: structureIndex took 150.3026ms
+[debug]   Load.apply: mkStreams took 5.128ms
+[info] loading global plugins from C:\Users\rito\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3333.6463ms
+[debug]           Load.loadUnit: plugins took 28.4865ms
+[debug]           Load.loadUnit: defsScala took 0.0046ms
+[debug] [Loading] Scanning directory D:\rito\desktop\Develop\RomajiToHiraganaConvertion\project
+[debug]             Load.loadUnit: mkEval took 7.0645ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\rito\desktop\Develop\RomajiToHiraganaConvertion\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.145 ms
+[info] loading settings for project romajitohiraganaconvertion-build from idea1.sbt ...
+[debug]               Load.resolveProject(romajitohiraganaconvertion-build) took 3.6935ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id romajitohiraganaconvertion-build, base: D:\rito\desktop\Develop\RomajiToHiraganaConvertion\project, plugins: List(<none>))) took 7.6843ms
+[debug] [Loading] Done in D:\rito\desktop\Develop\RomajiToHiraganaConvertion\project, returning: (romajitohiraganaconvertion-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2944.2333ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.2046ms
+[debug]         Load.loadUnit(file:/D:/rito/desktop/Develop/RomajiToHiraganaConvertion/project/, ...) took 2980.053ms
+[debug]       Load.apply: load took 2981.9093ms
+[debug]       Load.apply: resolveProjects took 0.1722ms
+[debug]       Load.apply: finalTransforms took 16.4803ms
+[debug]       Load.apply: config.delegates took 0.7849ms
+[debug]       Load.apply: Def.make(settings)... took 121.9016ms
+[debug]       Load.apply: structureIndex took 52.4763ms
+[debug]       Load.apply: mkStreams took 0.0034ms
+[info] loading project definition from D:\rito\desktop\Develop\RomajiToHiraganaConvertion\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 4853.2395ms
+[debug]     Load.loadUnit: defsScala took 0.003ms
+[debug] [Loading] Scanning directory D:\rito\desktop\Develop\RomajiToHiraganaConvertion
+[debug]       Load.loadUnit: mkEval took 0.2971ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\rito\desktop\Develop\RomajiToHiraganaConvertion, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 5.5021 ms
+[info] loading settings for project romajitohiraganaconvertion from build.sbt ...
+[debug]         Load.resolveProject(romajitohiraganaconvertion) took 52.4826ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id romajitohiraganaconvertion, base: D:\rito\desktop\Develop\RomajiToHiraganaConvertion, plugins: List(<none>))) took 60.8204ms
+[debug] [Loading] Done in D:\rito\desktop\Develop\RomajiToHiraganaConvertion, returning: (romajitohiraganaconvertion)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2183.7099ms
+[debug]     Load.loadUnit: cleanEvalClasses took 35.821ms
+[debug]   Load.loadUnit(file:/D:/rito/desktop/Develop/RomajiToHiraganaConvertion/, ...) took 7074.6908ms
+[debug] Load.apply: load took 7078.9143ms
+[debug] Load.apply: resolveProjects took 0.2852ms
+[debug] Load.apply: finalTransforms took 54.2271ms
+[debug] Load.apply: config.delegates took 0.429ms
+[debug] Load.apply: Def.make(settings)... took 105.3886ms
+[debug] Load.apply: structureIndex took 38.1267ms
+[debug] Load.apply: mkStreams took 0.0036ms
+[info] set current project to romajitohiraganaconvertion (in build file:/D:/rito/desktop/Develop/RomajiToHiraganaConvertion/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * ThisBuild / name
+[warn]   +- D:\rito\desktop\Develop\RomajiToHiraganaConvertion\build.sbt:1
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 51938 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 51938, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to romajitohiraganaconvertion (in build file:/D:/rito/desktop/Develop/RomajiToHiraganaConvertion/)
+[debug] > Exec(idea-shell, None, None)

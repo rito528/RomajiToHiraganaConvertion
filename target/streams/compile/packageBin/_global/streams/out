@@ -1,0 +1,13 @@
+[debug] Packaging D:\rito\desktop\Develop\RomajiToHiraganaConvertion\target\scala-2.13\romajitohiraganaconvertion_2.13-1.0.1.jar ...
+[debug] Input file mappings:
+[debug] 	com
+[debug] 	  D:\rito\desktop\Develop\RomajiToHiraganaConvertion\target\scala-2.13\classes\com
+[debug] 	com\gmail
+[debug] 	  D:\rito\desktop\Develop\RomajiToHiraganaConvertion\target\scala-2.13\classes\com\gmail
+[debug] 	com\gmail\rotoyutoriapp
+[debug] 	  D:\rito\desktop\Develop\RomajiToHiraganaConvertion\target\scala-2.13\classes\com\gmail\rotoyutoriapp
+[debug] 	com\gmail\rotoyutoriapp\Romaji$.class
+[debug] 	  D:\rito\desktop\Develop\RomajiToHiraganaConvertion\target\scala-2.13\classes\com\gmail\rotoyutoriapp\Romaji$.class
+[debug] 	com\gmail\rotoyutoriapp\Romaji.class
+[debug] 	  D:\rito\desktop\Develop\RomajiToHiraganaConvertion\target\scala-2.13\classes\com\gmail\rotoyutoriapp\Romaji.class
+[debug] Done packaging.
