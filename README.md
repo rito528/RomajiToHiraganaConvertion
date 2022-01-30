@@ -1,13 +1,16 @@
 # RomajiToHiraganaConversion
 ローマ字をひらがなに変換するJava/Scala用ライブラリ
 
+# 最新バージョン
+1.0.1
+
 # 依存関係
 
 sbt
 ---
 ```sbt
 resolvers += "Maven Repo on github" at "https://rito528.github.io/"
-libraryDependencies += "RomajiToHiraganaConvertion" % "romajitohiraganaconvertion_2.13" % "1.0.0"
+libraryDependencies += "RomajiToHiraganaConvertion" % "romajitohiraganaconvertion_2.13" % "latest-version"
 ```
 
 
@@ -27,7 +30,7 @@ maven
         <dependency>
             <groupId>RomajiToHiraganaConvertion</groupId>
             <artifactId>romajitohiraganaconvertion_2.13</artifactId>
-            <version>1.0.0</version>
+            <version>latest-version</version>
         </dependency>
     </dependencies>
 ```
