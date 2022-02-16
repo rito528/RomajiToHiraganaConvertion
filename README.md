@@ -34,3 +34,15 @@ maven
         </dependency>
     </dependencies>
 ```
+
+## 使い方
+---
+
+```Java
+import com.gmail.rotoyutoriapp.Romaji
+
+public static void main(args: Array[String]) {
+    Romaji.romajiToHiragana("ro-mazi") // ->「ろーまじ」と返ってきます。 
+}
+
+```
